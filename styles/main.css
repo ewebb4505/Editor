@@ -1,0 +1,30 @@
+@import 'sidebar_styles.css';
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100% !important;
+}
+
+main{
+    height: calc(100vh - 20px);
+}
+
+.textArea {
+    margin-left: 100px;
+    padding: 5px;
+    border: solid black 2px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    z-index: 9999;
+}
