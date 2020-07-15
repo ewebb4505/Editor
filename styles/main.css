@@ -9,11 +9,11 @@ body {
 }
 
 main{
-    height: calc(100vh - 20px);
+    height: calc(100vh - 32px);
 }
 
 .textArea {
-    margin-left: 100px;
+    margin-left: 175px;
     padding: 5px;
     border: solid black 2px;
 }
@@ -27,4 +27,5 @@ footer{
     text-align: center;
     padding-top: 5px;
     z-index: 9999;
+    background-color: brown;
 }
