@@ -31,10 +31,10 @@ app.on('ready', function(){
   //TODO: add an edit menu for this menu bar
   const template = [
     {
-      label: 'demo',
+      label: "Project",
       submenu: [
         {
-          label: "subMenu1",
+          label: "Open File",
           click: function(){
             console.log("clicked submenu 1")
           }
